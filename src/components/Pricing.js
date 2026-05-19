@@ -1,5 +1,5 @@
 import React from "react";
-import styled, { keyframes } from "styled-components";
+import styled, { keyframes, css } from "styled-components";
 import { productDetails } from "../config/productDetails";
 import Button from "./Button";
 
@@ -83,7 +83,7 @@ const PricingCard = styled.div`
     transform: translateY(-8px);
   }
 
-  ${props => props.popular && `
+  ${props => props.popular && css`
     border-color: rgba(6, 182, 212, 0.5);
     background: rgba(255, 255, 255, 0.04);
     animation: ${borderGlow} 6s infinite ease-in-out;
