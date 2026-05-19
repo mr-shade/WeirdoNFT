@@ -1,105 +1,117 @@
-# WeirdoNFT - Premium React NFT Landing Page Template
+# How to Create NFT Collection Landing Page in React JS
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg)](https://opensource.org/licenses/MIT)
-[![React: 18.x](https://img.shields.io/badge/React-18.x-cyan.svg)](https://react.dev/)
-[![GSAP: 3.x](https://img.shields.io/badge/GSAP-3.x-green.svg)](https://greensock.com/gsap/)
-[![Styled Components](https://img.shields.io/badge/Styled--Components-5.x-pink.svg)](https://styled-components.com/)
+![GitHub stars](https://img.shields.io/github/stars/codebucks27/The-Weirdos-NFT-Website-Starter-Code?style=social&logo=ApacheSpark&label=Stars&maxAge=2592000)&nbsp;&nbsp;
+![GitHub forks](https://img.shields.io/github/forks/codebucks27/The-Weirdos-NFT-Website-Starter-Code?style=social&logo=KashFlow)&nbsp;&nbsp;
+![Github Followers](https://img.shields.io/github/followers/codebucks27.svg?style=social&label=Follow&maxAge=2592000)&nbsp;&nbsp;<br />
 
-**WeirdoNFT** is an ultra-premium, high-converting, and stunningly animated React landing page template designed specifically for NFT collections, digital artists, and Web3 projects. Engineered with visual excellence, smooth scrolling animations, and glassmorphic aesthetics to instantly captivate your visitors.
+This repository contains starter code for NFT Collection Website in ReactJS. <br />
 
----
+For the **Demo** and **Final Code** checkout this link👇: <br />
+<a href="https://devdreaming.com/videos/create-nft-collection-website-reactjs#overview" target="_blank">Checkout this mobile responsive NFT collection website built with ReactJS</a> <br />
 
-## ✨ Features
+If you want to learn how to create it please follow below tutorial👇: <br />
+https://youtu.be/edr2o59Twrs <br />
+[![YouTube Video Views](https://img.shields.io/youtube/views/edr2o59Twrs?style=social)](https://youtu.be/edr2o59Twrs)<br />
 
-- **Smooth GSAP Animations**: Fully animated sections using GreenSock, offering a high-fidelity interactive experience.
-- **Glassmorphism Design System**: Futuristic, glowing space-navy aesthetic built utilizing the highest standards of modern UI design.
-- **Dynamic Typewriter Headline**: Engaging interactive text typing animations out-of-the-box.
-- **Infinite Showcase Marquees**: GPU-accelerated, infinite-loop character showcases moving in opposite directions with smooth hover slowing.
-- **Centralized Text Configuration**: All copywriting, FAQ contents, roadmap items, pricing tiers, and testimonials are loaded from a single file (`src/config/productDetails.js`) for lightning-fast edits.
-- **Alternating vertical Timeline**: Sleek, interactive Web3 project roadmap tracker.
-- **Interactive FAQ Accordion**: Fluid slide-down collapsible card lists to resolve buyer doubts.
-- **Testimonial Showcase**: Premium review cards complete with star rating glows and SVG user avatars.
-- **Conversion-Optimized Pricing Cards**: High-converting pricing tables with glow borders and recommended badge highlighting.
-- **100% Fully Responsive Layout**: Meticulously designed for a flawless UX on mobile screens, tablets, laptops, and massive 4K monitors.
+⭐⭐⭐⭐ This repo is nominated in [Top How To Nft Open-Source Projects on Github](https://gitclone.dev/top-how-to-nft-open-source-projects-on-github/).
 
----
-
-## 🛠️ Tech Stack & Dependencies
-
-- **Framework**: React.js (v18.x)
-- **Styling**: Styled-Components (v5.x)
-- **Animations**: GSAP (GreenSock) & Typewriter-Effect
-- **Iconography**: Custom SVG components inside `src/Icons/`
-- **Illustrations**: High-quality SVG character builders from `BigHeads.io`
-
----
-
-## 🚀 Quick Start Guide
-
-### 1. Prerequisites
-Ensure you have [Node.js](https://nodejs.org/) installed (v18.x or above recommended).
-
-### 2. Install Dependencies
-Navigate to the root directory and install all packages:
-```bash
-npm install
+### NOTE:  <br />
+There is one change in the Button.js File.  <br />
+Wrap Btn inside Link component like below for the link to work.
+```
+<a href={link} aria-label={text} target="_blank" rel="noreferrer" >
+<Btn>{text}</Btn>
+</a>
 ```
 
-### 3. Run Development Server
-Start the local server. The app automatically launches on `http://localhost:3000`:
-```bash
-npm start
-```
+### Images of The NFT Collection Website:
+![HOME](https://github.com/codebucks27/The-Weirdos-NFT-Website-Starter-Code/blob/main/Home%20-%20Desktop.png)
+![ABOUT](https://github.com/codebucks27/The-Weirdos-NFT-Website-Starter-Code/blob/main/Home-2%20-%20Desktop.png)
+![HOME](https://github.com/codebucks27/The-Weirdos-NFT-Website-Starter-Code/blob/main/Home-1%20-%20Mobile.png)
+![MENU](https://github.com/codebucks27/The-Weirdos-NFT-Website-Starter-Code/blob/main/Home-2-%20Mobile.png)
 
-### 4. Build for Production
-Create an optimized production bundle in the `build/` directory:
-```bash
-npm run build
-```
 
----
+### Resources Used in This Project
 
-## ⚙️ Customization Instructions
+Character Figures: https://bigheads.io/ <br />
+Fonts: https://fontsource.org/ <br />
+Svg Icons From: https://icons8.com & https://freesvg.org/   <br />
 
-WeirdoNFT is designed for developer ergonomics. You do **not** need to traverse multiple components to edit your landing page texts.
+### External Libraries used in this project: 
 
-### Changing Text, FAQs, and Prices
-Simply open [src/config/productDetails.js](file:///Users/shaswatraj/Desktop/landing-pages/landingweb/nft-web/src/config/productDetails.js) and update the JSON properties:
-- **Hero Title & taglines**: Update `productDetails.hero`
-- **Feature Cards**: Add, modify, or delete features in `productDetails.features.items`
-- **Roadmap Milestones**: Update phase details in `productDetails.roadmap.items`
-- **Pricing Tiers**: Change price points, details, or checkout links in `productDetails.pricing.tiers`
-- **Client Reviews**: Edit testimonials in `productDetails.testimonials.items`
-- **Accordion FAQs**: Modify questions and answers in `productDetails.faqs`
+[styled-components](https://styled-components.com/docs/advanced) <br />
+[GSAP](https://greensock.com/gsap/) <br />
+[type-writer effect](https://www.npmjs.com/package/typewriter-effect) <br />
+[react-confetti](https://www.npmjs.com/package/react-confetti) <br />
+[react-use](https://www.npmjs.com/package/react-use) <br />
 
-### Modifying Colors & Typography
-Open [src/styles/Themes.js](file:///Users/shaswatraj/Desktop/landing-pages/landingweb/nft-web/src/styles/Themes.js) to globally change styling tokens:
-- **Gradients & Accents**: Update primary (purple), secondary (cyan), or accent (pink) HSL or HEX codes.
-- **Backgrounds & Card Glows**: Edit the glassmorphic background colors (`glassBg` and `glassBorder`).
+# Getting Started with Create React App
 
----
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## 🌐 Deployment to Surge.sh
+## Available Scripts
 
-To deploy this landing page to Surge in seconds:
+In the project directory, you can run:
 
-1. **Build the production folder**:
-   ```bash
-   npm run build
-   ```
+### `npm start`
 
-2. **Deploy to Surge**:
-   Install Surge globally if you haven't already:
-   ```bash
-   npm install -g surge
-   ```
-   Deploy the `build` folder:
-   ```bash
-   surge build
-   ```
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
----
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## 📄 License
+### `npm test`
 
-This project is licensed under the MIT License - see the [LICENSE](file:///Users/shaswatraj/Desktop/landing-pages/landingweb/nft-web/LICENSE) file for details.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
